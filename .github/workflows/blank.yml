@@ -1,5 +1,5 @@
 name: Python Package using Conda
-run-name: Check ${{github.event.pull_request.merged == true||'deploy'}} to synw-azes-0001-dev-mgmt by @${{ github.actor }} at ${{ github.event.pull_request.created_at }}
+run-name: ${{github.event.pull_request.merged == true||'deploy'}} to synw-azes-0001-dev-mgmt by @${{ github.actor }} at ${{ github.event.pull_request.created_at }}
 
 
 on: [push]
