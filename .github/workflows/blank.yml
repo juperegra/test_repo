@@ -1,6 +1,8 @@
 name: Python Package using Conda
 
+
 run-name: ${{github.event.pull_request.merged == true && 'Deploying'||'Validating deployment'}} to synw-azes-0001-dev-mgmt by @${{ github.actor }} at ${{ github.event.pull_request.updated_at}}
+
 
 
 on:
